@@ -1,10 +1,10 @@
 name = "john doe"
 # changing string casing using string associated methods; title(), upper(), lower(), strip(), lstrip(), rstrip().
 
-# print(name.title())
-# print(name.upper())
-# name = "JOHN DOE"
-# print(name.lower())
+print(name.title())
+print(name.upper())
+name = "JOHN DOE"
+print(name.lower())
 
 # Python Concatenation
 l_name = "doe"
