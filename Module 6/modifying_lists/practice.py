@@ -7,11 +7,13 @@ num_list = [1, 2, 3, 4, 5]
 print(num_list)
 num_list[3] = 3.5
 print(num_list)
+print("------------------------")
 
 color_list = ["red", "blue", "pink", "grey"]
 print(color_list)
 del color_list[2]
 print(color_list)
+print("------------------------")
 
 animal_list = ["dog", 'cat', "mouse"]
 print(animal_list)
