@@ -1,0 +1,1 @@
+y = open("myfile.txt", "x")
