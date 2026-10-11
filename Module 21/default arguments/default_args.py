@@ -1,0 +1,10 @@
+def student(fname, lname="Bigger", major="information Tecnology"):
+    print(fname, lname, "majors in ", major)
+print("1 argument")
+student("Tony")
+print("-----------------")
+print("2 argument")
+student("Stan", "Lee")
+print("3 argument")
+student("Tony", "stark", "Physics")
+print("-----------------")

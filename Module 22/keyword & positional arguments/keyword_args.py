@@ -1,0 +1,10 @@
+def greet(name, msg= "How are you today?"):
+    print(f"hey {name}, {msg}")
+print("2 keyword")
+greet(name="Dave", msg= "how do you do?")
+print("--------------------------------")
+print("2 keyword, out of order")
+greet(msg = "how are you doing?", name = "Dave")
+print("--------------------------------")
+print("1 positional, 1 keyword")
+greet("Dave", msg="How you doing")

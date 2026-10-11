@@ -1,9 +1,14 @@
 a = open("demo.txt", "r")
 print(a.read())
+a.close()
 print("------------")
-#or 
+#or Reading files - with 
 with open("demo.txt", "r") as a:
     print(a.read())
+print("------------")
+with open("demo.txt", "r") as myfile:
+    contents = myfile.read()
+    print(contents)
 print("------------")
 
 #READLINES 

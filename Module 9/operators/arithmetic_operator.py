@@ -7,6 +7,7 @@ b = 5
 c = a+b
 print(c)
 print("--------------")
+
 #subtraction operator
 x = 44 - 34
 print(x)
@@ -16,6 +17,7 @@ b = 5
 c = b - a
 print(c)
 print("--------------")
+
 #multiplication operator
 x = 4 * 2
 print(x)
@@ -25,6 +27,7 @@ b = 3
 c = a * b
 print(c)
 print("--------------")
+
 #division operator
 x = 4 // 2
 print(x)
@@ -33,5 +36,13 @@ a = 9
 b = 3
 c = a / b
 print(c)
+print("--------------")
 
 #exonential operator
+x = 3**3
+print(x)
+
+a = 4
+b = 2
+c = a**b
+print(c)

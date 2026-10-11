@@ -49,11 +49,11 @@ print(a >= b)
 print("----------------------")
 
 print("Less_than operator")
-x = 10
-y = 12
-print(x < y)
+t = 34
+s = 21
+print(x <= y)
 
-a = 212.32
-b = 212.33
-print(a < b)
+a = 22
+b = 13
+print(a <= b)
 print("----------------------")

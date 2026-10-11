@@ -24,6 +24,7 @@ newer_file.close()
 
 a = open("Practice2.txt", "r")
 print(a.read) 
+a.close()
 print("Q2a done")
 print("-----------------------------")
 
@@ -38,6 +39,7 @@ while a < 3:
 destination_file.close()
 b = open("practice2_destination.txt", "r")
 print(b.read())
+b.close()
 print("Q2b done")
 print("----------------------------")
 
